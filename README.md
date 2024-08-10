@@ -10,14 +10,6 @@ The BigInt library provides functionality for performing arithmetic, bitwise ope
 - **Number Theory Functions**: Prime checking, GCD, LCM, and modular exponentiation.
 - **Comparison Functions**: Greater than, less than, equal to, and their variants.
 
-## Installation
-
-To use the BigInt library, simply clone the repository and import the necessary functions or the `BigInt` class into your Python script.
-
-```python
-from BigInt import Add, Subtract, BigInt
-```
-
 ## Function-Based API
 
 These functions can be used without instantiating the `BigInt` class. All inputs and outputs are strings unless specified otherwise.
@@ -85,21 +77,6 @@ Using the `BigInt` class allows you to encapsulate the operations in a more obje
 - **Equal(A, B)**: Returns `True` if `A` is equal to `B`.
 - **Less_Than_Equal(A, B)**: Returns `True` if `A` is less than or equal to `B`.
 - **Less_Than(A, B)**: Returns `True` if `A` is less than `B`.
-
-## Example Usage
-
-```python
-from BigInt import Add, BigInt
-
-# Function-based API
-result = Add("12345678901234567890", "98765432109876543210")
-print(result)  # Output: 111111111011111111100
-
-# Class-based API
-big_num = BigInt()
-result = big_num.add("12345678901234567890", "98765432109876543210")
-print(result)  # Output: 111111111011111111100
-```
 
 ## License
 
